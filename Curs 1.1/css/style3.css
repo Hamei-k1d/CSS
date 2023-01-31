@@ -1,0 +1,19 @@
+/* mai mare(>) reprezinta copii directi */
+div,section{
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid red;
+}
+section p{
+    font-style: italic;
+}
+
+section > article>p{
+    font-style: bold;
+}
+div p{
+    color: red;
+}
+section+p{
+    color: brown;
+}

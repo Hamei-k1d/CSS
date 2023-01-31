@@ -1,0 +1,21 @@
+*{padding: 15px;}
+body{
+   width: 100%;
+   max-width: 1000px;
+   margin:auto;
+}
+div
+{
+    border: 2px solid blue;
+    background-color: aqua;
+}
+div>div{
+    background-color: red;
+    
+}
+div>div>div{
+    background-color: chartreuse;
+    
+}
+p+div{color:yellow}
+div div div p{ color: white}
